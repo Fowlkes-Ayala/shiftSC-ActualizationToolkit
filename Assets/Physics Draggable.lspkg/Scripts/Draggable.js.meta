@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/21757554-e45b-f5c1-ca01-0f30f2514ff3>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 62fc2b32-20af-4e3d-84c8-073f93dd0054
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 62fc2b32-20af-4e3d-84c8-073f93dd0054
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: YkPSjDMppmjOjLLYGU6QK
+  AssetDataMap:
+    JavaScriptAsset: !<own> 37613278-e4fe-4d1d-9059-27982319ae08
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/37613278-e4fe-4d1d-9059-27982319ae08>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 7c2045d4-5839-42d2-86c1-f414e65731e8
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    camera: false
+    physicsAllowedNames: false
+    physicsAllowedObjects: false
+    physicsFilterObjectsBy: false
+    physicsNameMatchType: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      physicsFilterObjectsBy: None
+      physicsAllowedObjects: !<reference.ColliderComponent[]>
+        []
+      physicsNameMatchType: Equals
+      physicsAllowedNames: !<string[]>
+        []
+  ScriptTypes:
+    -
+      {}

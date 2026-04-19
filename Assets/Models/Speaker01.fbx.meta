@@ -1,0 +1,210 @@
+- !<AssetImportMetadata/e6a33f1d-746c-4ffb-bbe8-8bbcbc6173dc>
+  ImportedAssetIds:
+    ".hidden/Material #184": !<reference> ce1fbf5b-cf7d-4e3c-9266-3571a539b0a5
+    .hidden/white: !<reference> 4d6b2794-6c55-4ed7-a21d-116dd0eb5681
+    2028ca51e4a54211: !<reference> de97b623-7095-419f-8a50-f76514c67bb7
+    4d3d6b54905118e0: !<reference> 0a3ba0e6-b953-41da-9aa4-a1f0e875edcd
+    7a0dd5cd69df73fa: !<reference> 1ead7a23-408b-46d1-861a-97602a70c0a8
+    Animations/BaseLayer: !<reference> 7adf4302-f653-4fa2-9294-35e07d06d0a6
+    "Materials/Material #184": !<reference> 6b68923e-04ed-4972-8d54-277f47a4ca16
+    "Materials/Material #184|Material #184|GraphPassInfo": !<reference> 7bb100eb-e7a4-4096-a3fd-c0b74f255ad0
+    Materials/Speaker_01: !<reference> c586af24-7ac9-4271-b5a2-f8db18928b37
+    Materials/Speaker_01|Speaker_01|GraphPassInfo: !<reference> 7d17abe1-0aa6-4979-9eac-1ad4efedc99c
+    Meshes/Box001: !<reference> acde37b3-6e9d-4a6d-87d1-d3689f740e4d
+    Meshes/SM_Speaker_002: !<reference> 4bdea0ff-9726-424a-b1cd-12d611c6f63c
+    Meshes/SM_Speaker_01: !<reference> 6a9cac53-3892-4d0f-b5ef-54d361c411ee
+    Scene: !<reference> af6638ec-c29f-425d-a489-769289556fcc
+    a392574f5360e259: !<reference> fb53f327-328e-44e4-8c34-b5f39e865852
+    a484aec84557f8f6: !<reference> 21bbb44b-4da2-4dd5-988b-b72b938ce358
+    b922e99bdb53bafb: !<reference> 021c1686-1bcd-4403-a776-8cc2bacde08e
+    cf641c723a338a3f: !<reference> c8858de0-b328-4633-b272-f48a53c777a9
+    e755cf254907845c: !<reference> 25c187f7-2848-48eb-8ca2-7135a629a25f
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> af6638ec-c29f-425d-a489-769289556fcc
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 309b3280-d2b8-4a40-a67a-cbc6a9564e01
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: false
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: false
+    ImportVertexAnimation: false
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionMipmapSettings>
+          Level: Medium
+          Mipmap: false
+    ExtensionMappings:
+      mesh: None Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/021c1686-1bcd-4403-5889-733d45321f71>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c586af24-7ac9-4271-b5a2-f8db18928b37
+  Mesh: !<reference> 4bdea0ff-9726-424a-b1cd-12d611c6f63c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/0a3ba0e6-b953-41da-655b-5e0f178a1232>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6b68923e-04ed-4972-8d54-277f47a4ca16
+  Mesh: !<reference> acde37b3-6e9d-4a6d-87d1-d3689f740e4d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/1ead7a23-408b-46d1-79e5-689fd58f3f57>
+  PrefabRemaps:
+    []
+  Name: Speaker01
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 25c187f7-2848-48eb-735d-8eca59d65da0
+    - !<own> c8858de0-b328-4633-4d8d-0b75ac388856
+    - !<own> fb53f327-328e-44e4-73cb-4a0c6179a7ad
+  Components:
+    - !<own> de97b623-7095-419f-75af-089aeb398448
+- !<RenderMeshVisual/21bbb44b-4da2-4dd5-6774-48d46c731ca7>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c586af24-7ac9-4271-b5a2-f8db18928b37
+  Mesh: !<reference> 6a9cac53-3892-4d0f-b5ef-54d361c411ee
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/25c187f7-2848-48eb-735d-8eca59d65da0>
+  PrefabRemaps:
+    []
+  Name: SM_Speaker_01
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 9.217331, y: 0.000000, z: 3.065252}
+    Rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 21bbb44b-4da2-4dd5-6774-48d46c731ca7
+- !<ObjectPrefabAssetData/309b3280-d2b8-4a40-a67a-cbc6a9564e01>
+  Prototype: !<ObjectOwner/9b585d67-030a-47b2-a6ee-535b88f4bd53>
+    PackagePath: ""
+    objects:
+      - !<own> 1ead7a23-408b-46d1-79e5-689fd58f3f57
+- !<SceneObject/c8858de0-b328-4633-4d8d-0b75ac388856>
+  PrefabRemaps:
+    []
+  Name: SM_Speaker_002
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -10.385265, y: 0.000000, z: 3.065252}
+    Rotation: {x: -90.000000, y: 36.507355, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 021c1686-1bcd-4403-5889-733d45321f71
+- !<AnimationPlayer/de97b623-7095-419f-75af-089aeb398448>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 7adf4302-f653-4fa2-9294-35e07d06d0a6
+      Name: BaseLayer
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 0.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<SceneObject/fb53f327-328e-44e4-73cb-4a0c6179a7ad>
+  PrefabRemaps:
+    []
+  Name: Box001
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 25.314514, y: 5.196381, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0a3ba0e6-b953-41da-655b-5e0f178a1232

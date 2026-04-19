@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/df41482b-c3dc-473c-88b0-d192bf6336f2>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 3
+    build: 26011319
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: Physics Draggable Allows you to drag physics body based on filters. You can also find the script in the Physics template to easily interact with objects. Click here to learn more on how to use Physics
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: aa6e9a00-3942-4213-b983-4d15f80ecbd0
+  ComponentUid: 2f3ee699-0b0f-4208-a5ae-de5a74a5b8af
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

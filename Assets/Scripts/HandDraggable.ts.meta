@@ -1,0 +1,62 @@
+- !<AssetImportMetadata/0c3fe829-ce77-493f-8fe0-3b7a703c86f0>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 4fae7b5d-f136-4894-8eb9-2b5181d935d8
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 4fae7b5d-f136-4894-8eb9-2b5181d935d8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> e85caf7d-6bb0-4985-93d1-7e468527e60c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/e85caf7d-6bb0-4985-93d1-7e468527e60c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 4121cd08-f292-4b95-97da-cf06793c652c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    constructingManager: false
+    fistFingerThreshold: false
+    highlightMaterial: false
+    hoverRadius: false
+    renderMesh: false
+    snapRadius: false
+    useLeftHand: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - renderMesh: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      constructingManager: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      snapRadius: !<float> 20.000000
+      highlightMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      hoverRadius: !<float> 10.000000
+      useLeftHand: false
+      fistFingerThreshold: !<float> 3.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Component.RenderMeshVisual renderMesh {"hint":"The RenderMeshVisual on this object"}'
+    - '// @input AssignableType constructingManager {"hint":"ConstructingManager that holds the snap points"}'
+    - '// @input float snapRadius = 20 {"hint":"Distance (cm) from a snap point at which the object snaps into place"}'
+    - '// @input Asset.Material highlightMaterial {"hint":"Material to swap to when hovering (create an Unlit material, set it yellow/transparent)"}'
+    - '// @input float hoverRadius = 15 {"hint":"Distance (cm) the hand must be within to enter hover state"}'
+    - '// @input bool useLeftHand {"hint":"Track left hand instead of right"}'
+    - '// @input float fistFingerThreshold = 3 {"hint":"How many fingers (out of 4) must be curled to count as a fist (1–4)"}'

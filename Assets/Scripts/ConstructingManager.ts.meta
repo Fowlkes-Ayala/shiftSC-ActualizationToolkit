@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/ac067245-7bb8-4a36-bc42-4444fc3ce2ec>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> cbe9d3c3-93e4-4491-afed-6e3ed135fc6c
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> cbe9d3c3-93e4-4491-afed-6e3ed135fc6c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> bdee5729-548b-4905-b1b5-5a80f09a7baf
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/bdee5729-548b-4905-b1b5-5a80f09a7baf>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 7d086c06-07a1-4cab-a84f-8f80d80f1fff
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    highlightMaterial: false
+    points: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - points: !<reference.SceneObject[]>
+        []
+      highlightMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input SceneObject[] points"
+    - '// @input Asset.Material highlightMaterial {"hint":"Same yellow highlight material used on HandDraggable — assigned to snap points when in range"}'

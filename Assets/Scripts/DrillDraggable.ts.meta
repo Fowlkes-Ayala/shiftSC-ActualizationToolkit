@@ -1,0 +1,68 @@
+- !<AssetImportMetadata/0b9b9109-52aa-4044-94f7-a052e82deebc>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 84d92bf6-f25a-4657-bf07-45e69143427d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 84d92bf6-f25a-4657-bf07-45e69143427d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> fdcc08ad-1251-49b5-b385-1e0b06b7ee13
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/fdcc08ad-1251-49b5-b385-1e0b06b7ee13>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 11dfc1d6-b493-40b8-abba-f6b12efbebb6
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    audioComponent: false
+    drillRadius: false
+    fistFingerThreshold: false
+    highlightMaterial: false
+    hoverRadius: false
+    releaseDelay: false
+    renderMesh: false
+    rotationOffset: false
+    useLeftHand: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - renderMesh: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      highlightMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      hoverRadius: !<float> 15.000000
+      useLeftHand: false
+      fistFingerThreshold: !<float> 3.000000
+      rotationOffset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      audioComponent: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      drillRadius: !<float> 15.000000
+      releaseDelay: 0.400000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Component.RenderMeshVisual renderMesh {"hint":"The RenderMeshVisual on this object"}'
+    - '// @input Asset.Material highlightMaterial {"hint":"Material to swap to when hand is in hover range (removed once picked up)"}'
+    - '// @input float hoverRadius = 15 {"hint":"Distance (cm) the hand must be within to enter hover state / pick up"}'
+    - '// @input bool useLeftHand {"hint":"Track left hand instead of right"}'
+    - '// @input float fistFingerThreshold = 3 {"hint":"How many fingers (out of 4) must be curled to count as a fist (1–4)"}'
+    - '// @input vec3 rotationOffset = {0,0,0} {"hint":"Euler offset in degrees applied after the grip rotation — use to align the drill model axis"}'
+    - '// @input Component.AudioComponent audioComponent {"hint":"Audio to play while drilling a trait"}'
+    - '// @input float drillRadius = 15 {"hint":"Distance (cm) from a drillable trait that triggers drilling"}'
+    - '// @input float releaseDelay = 0.4 {"hint":"Seconds the fist must be open before the drill is released (higher = more forgiving)"}'

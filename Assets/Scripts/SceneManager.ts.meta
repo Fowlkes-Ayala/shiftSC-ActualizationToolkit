@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/f7abf537-0712-4e4a-826e-9a9814b37117>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a177cb93-68b3-42b6-95cb-4303be64729d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a177cb93-68b3-42b6-95cb-4303be64729d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 2e1ff136-a152-4ee7-95ca-4948f095b4a8
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/2e1ff136-a152-4ee7-95ca-4948f095b4a8>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 8aa71bb1-de90-4859-b2df-e0c1e7a5948e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    names: false
+    targets: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - names: !<string[]>
+        []
+      targets: !<reference.SceneObject[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input string[] names"
+    - "// @input SceneObject[] targets"

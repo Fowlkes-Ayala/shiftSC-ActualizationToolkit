@@ -1,0 +1,73 @@
+# =========================
+# Lens Studio
+# =========================
+
+# Cache / temp
+*.tmp
+*.temp
+*.cache
+*.log
+
+# Lens Studio generated folders
+Cache/
+Build/
+Intermediate/
+Temp/
+
+# Auto-generated files
+*.lsproj.user
+*.csproj
+*.sln
+*.unityproj
+
+# OS junk
+# =========================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Mac (in case collaborators use it)
+.DS_Store
+
+# =========================
+# Node / TypeScript (if using TS scripting)
+# =========================
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# =========================
+# IDEs
+# =========================
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# JetBrains
+.idea/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Optional: exports
+# =========================
+*.zip
+*.mp4
+*.mov
+*.gif

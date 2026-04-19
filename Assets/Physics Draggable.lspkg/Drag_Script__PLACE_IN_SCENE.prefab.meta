@@ -1,0 +1,202 @@
+- !<AssetImportMetadata/430bdb05-d0b8-c0a7-f6ca-6c2c2fd95804>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> e89c3e99-11d8-4909-8e7d-221d0341566d
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> e89c3e99-11d8-4909-8e7d-221d0341566d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: YkPSjDMppmjOjLLYGU6QK
+  AssetDataMap:
+    ObjectPrefab: !<own> 34586e05-e0e4-49e1-8ecc-10528fb01aa3
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/34586e05-e0e4-49e1-8ecc-10528fb01aa3>
+  Prototype: !<ObjectOwner/12fac4db-5a32-4025-8f6a-f49d48ab368e>
+    PackagePath: ""
+    objects:
+      - !<own> 45f75d85-ac4c-4cf8-6937-f255ae5dc5e7
+- !<SceneObject/4464d954-c785-484c-5781-85a3c2d295d5>
+  PrefabRemaps:
+    []
+  Name: Ducky Collider
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 728ec79c-ba22-4d87-681b-8421e3491b59
+    - !<own> ce83146d-8c16-4360-7530-7e5372a60a4e
+  Components:
+    - !<own> fb71730c-0fb4-4400-750d-9b1f4f2fc4af
+- !<SceneObject/45f75d85-ac4c-4cf8-6937-f255ae5dc5e7>
+  PrefabRemaps:
+    []
+  Name: Drag_Script__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4464d954-c785-484c-5781-85a3c2d295d5
+  Components:
+    - !<own> f1b43c30-8391-4ca6-791d-e0adfaaf2e8b
+- !<ConstraintComponent/4a26d271-5e47-4976-7425-6d5fdd5f8ae5>
+  PrefabRemaps:
+    []
+  Name: Physics Constraint
+  Enabled: true
+  Target: !<reference> 00000000-0000-0000-0000-000000000000
+  ConstraintType: Point
+  MotorSettings: !<HingeMotorSettings>
+    Enabled: false
+    MaxImpulse: 0.000000
+    MotorType: AngleTarget
+    TargetAngle: 0.000000
+    TargetVelocity: 0.000000
+  LimitSettings: !<HingeLimitSettings>
+    Enabled: false
+    LowLimit: 0.000000
+    HighLimit: 0.000000
+    BiasFactor: 0.300000
+    RelaxationFactor: 1.000000
+  ShowConstraint: true
+- !<RenderMeshVisual/5b78a5f2-e1ae-463b-5ce2-a256af54f2c6>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f5874e4e-1a8b-43da-9e09-7ecf124c4e4a
+  Mesh: !<reference> 0a8c631b-56b9-491b-92cf-60a45b37b26f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: true
+        roughHarden: 0.500000
+        roughCurve: 2.000000
+    GlobalIllumination:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false
+- !<SceneObject/728ec79c-ba22-4d87-681b-8421e3491b59>
+  PrefabRemaps:
+    []
+  Name: Ducky
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -8.409049, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> ce6fdded-ce4a-4a70-6c44-2ca957a3b18d
+  Components:
+    []
+- !<SceneObject/ce6fdded-ce4a-4a70-6c44-2ca957a3b18d>
+  PrefabRemaps:
+    []
+  Name: Ducky
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: -90.000000, z: 0.000000}
+    Scale: {x: 0.200000, y: 0.200000, z: 0.200000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5b78a5f2-e1ae-463b-5ce2-a256af54f2c6
+- !<SceneObject/ce83146d-8c16-4360-7530-7e5372a60a4e>
+  PrefabRemaps:
+    []
+  Name: Constraint
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 10.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4a26d271-5e47-4976-7425-6d5fdd5f8ae5
+- !<ScriptComponent/f1b43c30-8391-4ca6-791d-e0adfaaf2e8b>
+  PrefabRemaps:
+    []
+  Name: Draggable
+  Enabled: true
+  ScriptAsset: !<reference> 62fc2b32-20af-4e3d-84c8-073f93dd0054
+  ScriptInputsDefault:
+    physicsNameMatchType: true
+    physicsAllowedNames: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      camera: !<reference.Camera> 00000000-0000-0065-0000-000000000065
+      physicsFilterObjectsBy: Other object
+      physicsAllowedObjects: !<reference.ColliderComponent[]>
+        - !<reference> fb71730c-0fb4-4400-750d-9b1f4f2fc4af
+      physicsNameMatchType: Equals
+      physicsAllowedNames: !<string[]>
+        []
+  ScriptTypes:
+    "":
+      {}
+- !<BodyComponent/fb71730c-0fb4-4400-750d-9b1f4f2fc4af>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.050000
+  AngularDamping: 0.050000

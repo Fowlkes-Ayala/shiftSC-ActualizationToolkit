@@ -1,0 +1,109 @@
+- !<AssetImportMetadata/39f30b14-3576-4c71-991a-5af9a2670594>
+  ImportedAssetIds:
+    .hidden/default_material: !<reference> 56e957ed-4deb-4e90-a000-d67cb12b8caa
+    .hidden/white: !<reference> 0a43d6aa-4726-4b67-b1a1-98e2f0a27150
+    7a0dd5cd69df73fa: !<reference> dc575313-e9f4-45d6-b854-4217bb3cba88
+    88cc0f4c3115e2f9: !<reference> 0532c1bd-6c51-4ae6-9f10-d195452ec555
+    9746266cd8551007: !<reference> 95645ad5-6647-49b1-b625-df063a5f1fbe
+    Materials/default_material: !<reference> 10b964c3-e1c2-4c2d-abd5-e568413772a1
+    Materials/default_material|default_material|GraphPassInfo: !<reference> 2134c711-666e-4e84-8bf1-2b556ac2fb64
+    Meshes/surface: !<reference> f9b1ed04-20ec-4f84-a4d1-cbf5baf57664
+    Scene: !<reference> 825ade69-0f46-496f-b4cd-e998f409b488
+    Textures/Table_AlbedoTransparency: !<reference> 3de7ad8f-6532-4aac-9050-4d6fb2f61007
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 825ade69-0f46-496f-b4cd-e998f409b488
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 53fcc744-52fd-43eb-b995-bb71cc4c0978
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionMipmapSettings>
+          Level: Medium
+          Mipmap: false
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/0532c1bd-6c51-4ae6-60ef-2e6abad13aaa>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 10b964c3-e1c2-4c2d-abd5-e568413772a1
+  Mesh: !<reference> f9b1ed04-20ec-4f84-a4d1-cbf5baf57664
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/53fcc744-52fd-43eb-b995-bb71cc4c0978>
+  Prototype: !<ObjectOwner/8b9424e4-13cc-45e4-9a58-32c2b5c2b648>
+    PackagePath: ""
+    objects:
+      - !<own> dc575313-e9f4-45d6-47ab-bde844c34577
+- !<SceneObject/95645ad5-6647-49b1-49da-20f9c5a0e041>
+  PrefabRemaps:
+    []
+  Name: surface
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0532c1bd-6c51-4ae6-60ef-2e6abad13aaa
+- !<SceneObject/dc575313-e9f4-45d6-47ab-bde844c34577>
+  PrefabRemaps:
+    []
+  Name: Workbench
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 95645ad5-6647-49b1-49da-20f9c5a0e041
+  Components:
+    []

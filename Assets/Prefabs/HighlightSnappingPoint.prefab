@@ -1,0 +1,42 @@
+- !<ObjectPrefab/eed6d406-7a81-4532-8605-394762af8291>
+  PackagePath: ""
+  objects:
+    - !<own> f0b6161a-78b9-490c-848a-e06a44393a1e
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/aa2785ec-990e-41ed-899d-34796560c68e>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2903591d-781e-4f36-989e-8e0e368a1b3d
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f0b6161a-78b9-490c-848a-e06a44393a1e>
+  PrefabRemaps:
+    - aa2785ec-990e-41ed-899d-34796560c68e: aa2785ec-990e-41ed-7662-cb869a9f3971
+    - f0b6161a-78b9-490c-848a-e06a44393a1e: f0b6161a-78b9-490c-7b75-1f95bbc6c5e1
+  Name: HighlightSnappingPoint
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 10.000000, y: 4.000000, z: 0.300000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> aa2785ec-990e-41ed-899d-34796560c68e

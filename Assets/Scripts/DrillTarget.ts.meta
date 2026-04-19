@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/57e85363-99de-48b9-ad2f-797b77d99648>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 58afe08b-5322-4ec1-b706-36c6d1488218
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 58afe08b-5322-4ec1-b706-36c6d1488218
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 2d857b76-d3fd-4490-8a9b-fc3384090b9a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/2d857b76-d3fd-4490-8a9b-fc3384090b9a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 34ad20b6-4344-42e9-9507-289cccba426c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    audioComponent: false
+    drillDuration: false
+    purpleMaterial: false
+    renderMesh: false
+    startDrillable: false
+    successAudio: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - renderMesh: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      purpleMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      audioComponent: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      successAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      drillDuration: !<float> 3.000000
+      startDrillable: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Component.RenderMeshVisual renderMesh {"hint":"The RenderMeshVisual on this object"}'
+    - '// @input Asset.Material purpleMaterial {"hint":"Material to show when the drill is in range"}'
+    - '// @input Component.AudioComponent audioComponent {"hint":"Audio on this trait to play while the drill is in range"}'
+    - '// @input Component.AudioComponent successAudio {"hint":"Audio to play once drilling completes (one-shot success sound)"}'
+    - '// @input float drillDuration = 3 {"hint":"Seconds of continuous drilling required to complete this trait"}'
+    - '// @input bool startDrillable {"hint":"If true, this trait can be drilled immediately without being snapped first"}'

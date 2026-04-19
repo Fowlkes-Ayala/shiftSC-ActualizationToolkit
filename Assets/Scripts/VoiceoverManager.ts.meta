@@ -1,0 +1,45 @@
+- !<AssetImportMetadata/338da572-c3d2-49f5-9d12-79b99a54126a>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 532ad7f3-0816-40b1-8347-10ac02951a7e
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 532ad7f3-0816-40b1-8347-10ac02951a7e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 996c216f-89d7-4d02-98c3-1ce2da774561
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/996c216f-89d7-4d02-98c3-1ce2da774561>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 12af6fe8-a04a-4958-bfd7-43ec2dcff392
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    audioSources: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - audioSources: !<reference.AudioComponent[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Component.AudioComponent[] audioSources = {} {"hint":"Voiceover clips in order: [0] intro (button press), [1] first snap, [2] third snap, [3] second drill complete"}'
